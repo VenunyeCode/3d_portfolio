@@ -64,19 +64,19 @@ const AppShowcase = () => {
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2}>
                             <div className="image-wrapper bg-[#FFEFDB]">
-                                <img
-                                    src="/images/project2.png"
-                                    alt="Library Management Platform"
+                                 <img
+                                    src="/images/socialNetwork.png"
+                                    alt="A social network platform"
                                 />
                             </div>
-                            <h2>The Library Management Platform</h2>
+                            <h2>Social Network platform</h2>
                         </div>
 
-                        <div className="project" ref={project3}>
+                          <div className="project" ref={project3}>
                             <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src="/images/project3.png" alt="YC Directory App" />
+                                <img src="/images/lexical-analyzer.png" alt="lexical analyzer app" />
                             </div>
-                            <h2>YC Directory - A Startup Showcase App</h2>
+                            <h2>A lexical analyzer lab</h2>
                         </div>
                     </div>
                 </div>
