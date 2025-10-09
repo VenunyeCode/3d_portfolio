@@ -49,16 +49,14 @@ const AppShowcase = () => {
                 <div className="showcaselayout">
                     <div ref={project1} className="first-project-wrapper">
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ryde App Interface" />
+                            <img src="/images/spotify_clone.png" alt="Spotify Clone" />
                         </div>
                         <div className="text-content">
                             <h2>
-                                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                                called Ryde
+                                Spotify Clone
                             </h2>
                             <p className="text-white-50 md:text-xl">
-                                An app built with React Native, Expo, & TailwindCSS for a fast,
-                                user-friendly experience.
+                                A spotify clone using SpringBoot and Angular
                             </p>
                         </div>
                     </div>
