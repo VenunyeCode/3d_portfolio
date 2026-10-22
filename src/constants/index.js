@@ -13,7 +13,7 @@ const navLinks = [
     },
 ];
 
-const about = {text: "Hi, I'm Bernard, a student in Software Engineering at the UTBM looking for an end-year internship in Software Engineering anywhere in France."};
+const about = {text: "Hi, I'm Bernard SOGBO. I recently graduated from the University of Technology of Belfort-Montbéliard (UTBM) with a Master of Engineering in Software Engineering and I am looking for a job vacancy in Software Engineering more specifically in Java/Angular/.NET"};
 
 const words = [
     { text: "Ideas", imgPath: "/images/ideas.svg" },
@@ -164,6 +164,18 @@ const techStackIcons = [
 ];
 
 const expCards = [
+    {
+        review: "As an SQLI consultant on assignment at EDF, I designed and built a full-stack business application from the ground up, with a Spring Boot back end and an Angular front end on a hexagonal, microservices architecture. Beyond the stack itself, this experience taught me how distributed systems actually behave once they are deployed — and how much of good engineering lives in the tests, the pipeline and the conversations with the team rather than in the code alone.",
+        imgPath: "images/logos/sqli.png",
+        title: "Software Engineering Intern",
+        date: "February 2026 - July 2026",
+        responsibilities: [
+            "Design and development of a full-stack business application (Spring Boot, Angular)",
+            "Implementation of event-driven communication between microservices with Kafka",
+            "Automated unit and integration tests within a Maven CI/CD pipeline",
+            "Docker containerization and deployment to AWS",
+        ],
+    },
     {
         review: "As a member of the Software Development Center’s EOMR team at Arabelle Solutions, I worked on enhancing and building new features for an existing application. This experience not only strengthened my technical skills but also taught me how to collaborate effectively with a team through GitHub, making teamwork an essential part of my development journey.",
         imgPath: "images/logos/arabellesolutions.png",
